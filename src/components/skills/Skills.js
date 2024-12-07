@@ -45,11 +45,7 @@ function Skills() {
     <section id="skills">
       <span className="skill-title">Skills and Experience</span>
       <span className="skill-description">
-      I am skilled in developing frontend applications using HTML5, CSS3, JavaScript, and TypeScript.
-       I have extensive experience with the React.js library and am proficient in working with databases such as MySQL and MongoDB. 
-       Additionally, I excel at creating and integrating APIs, including GraphQL and REST. 
-      On the backend, I am experienced in Node.js, Java, PHP, NestJS, and the Magento 2 framework, and possess strong problem-solving skills.
-
+      I am skilled in developing frontend applications using HTML5, CSS3, JavaScript, and TypeScript. I have extensive experience with the React.js library and am proficient in working with databases such as MySQL and MongoDB. Additionally, I excel at creating and integrating APIs, including GraphQL and REST. On the backend, I am experienced in Node.js, Java, PHP, NestJS, Spring, Spring Boot, and the Magento 2 framework, with expertise in build tools like Maven. I also possess strong problem-solving skills and have knowledge of DevOps practices for efficient deployment and operations.
       </span>
       <div className="skill-bars">
         {skillsList.map((skills) => {

@@ -1,12 +1,11 @@
 import "./Projects.css";
-import news from "../../assets/news.jpg";
 import portfolio from "../../assets/portfolio.jpeg";
-import todo from "../../assets/todo.png";
-import tour from "../../assets/tour.jpg";
-import ecom from "../../assets/ecom.jpg";
-import weath from "../../assets/weath.jpeg";
-import calc from "../../assets/calc.jpg";
-import code from "../../assets/code.png";
+import cow from "../../assets/cow.jpg"
+import weather from "../../assets/weather.jpg";
+import rent from "../../assets/rent.jpg"
+import news from "../../assets/news.jpg";
+import crypto from "../../assets/cryptochart.jpg"
+import dash from "../../assets/dashboard.jpg"
 
 
 
@@ -24,74 +23,54 @@ function Projects() {
       <Project
         title="Real-Time Cryptocurrency Price Data"
         desc="This project is a mini-website that collects and displays real-time price data for selected cryptocurrencies. The backend polls data from an API every few seconds and stores it in a MongoDB database. The frontend fetches and displays the most recent 20 data entries in a dynamic table that updates in real-time."
-        img={todo}
+        img={crypto}
         git="https://github.com/skyshetty720/Crypto-tracker"
         link="https://github.com/skyshetty720/Crypto-tracker"
       />
        <Project
         title="Streamlit-Dashboard"
         desc=" I developed an interactive dashboard using Streamlit to explore the GitHub repositories dataset provided via Kaggle. The dashboard includes insightful visualizations and highlights key patterns and trends within the dataset, showcasing my ability to effectively analyze and communicate data."
-        img={ecom}
+        img={dash}
         git="https://github.com/skyshetty720/Streamlit-Dashboard"
         link="https://app-dashboard-xe6mg3cbr5hy2luuwkctaz.streamlit.app/"
       />
 
-      <Project
-        title="News App"
-        desc="Developed a React news app focused on personalized content delivery, leveraging APIs to fetch and display news based on user preferences.
-        Integrated a robust search feature allowing users to easily find specific articles or topics of interest within the app.
-        Designed with a minimalist and user-friendly interface to ensure effortless news browsing, emphasizing readability and ease of navigation."
-        img={news}
-        git="https://github.com/surabhi-achar/news-app-react"
-        link="https://newsapp-react-api.netlify.app/"
-      />
       <Project
         title="Portfolio(This Website)"
         desc="Developed a modern React JS portfolio showcasing skill showcases, detailed project descriptions, and a user-friendly Contact Me section.
 Integrated direct email functionality to facilitate seamless communication, allowing visitors to easily reach out for inquiries or collaborations.
 Ensured the portfolio is responsive and mobile-friendly, optimizing the viewing experience across a wide range of devices."
         img={portfolio}
-        git="https://github.com/surabhi-achar/Portfolio-react-website"
-        link="https://surabhi-achar.github.io/React-portfolio-website/"
+        git="https://github.com/skyshetty720/Portfolio"
+        link="#"
       />
      <Project
-        title="Tourism Website"
-        desc="Created a dynamic tourism website showcasing the scenic destinations of Udupi using PHP, HTML, and CSS.
-        Enabled users to navigate and explore diverse attractions with ease, featuring a photo gallery to highlight the beauty of each destination.
-        Implemented a responsive design to ensure a seamless browsing experience across all devices."
-        img={tour}
-        git=""
-        link=""
+        title="ML - Cow Disease Prediction"
+        desc="I developed a machine learning project, **ML-Cow Disease Prediction**, to detect foot-and-mouth disease in cattle. The model leverages advanced algorithms to analyze symptoms and provide accurate predictions. This project aims to assist in early diagnosis and improve livestock health management."
+        img={cow}
+        git="https://github.com/skyshetty720/ML-Cow_Disease_Prediction"
+        link="https://github.com/skyshetty720/ML-Cow_Disease_Prediction"
       />
     <Project
-        title="React Calculator"
-        desc="Developed a fully functional calculator application using React, implementing essential arithmetic operations for basic calculations.
-        Designed a user-friendly interface with responsive design, ensuring seamless user experience across different devices and screen sizes."
-        img={calc}
-        git="https://github.com/surabhi-achar/react-calcuclator"
-        link="https://surabhi-achar.github.io/react-calcuclator/"
+        title="Weather App - Android"
+        desc="I developed an Android project called a **Weather App** that allows users to check the weather conditions of any city. The app integrates with a weather API to fetch real-time data seamlessly in the background. It provides detailed weather information, including temperature, humidity, and weather conditions, displayed in a user-friendly interface. The app ensures efficient data handling and smooth performance for an enhanced user experience. This project demonstrates my skills in Android development, API integration, and creating dynamic applications."
+        img={weather}
+        git="https://github.com/skyshetty720/Android-WeatherApp"
+        link="https://github.com/skyshetty720/Android-WeatherApp"
       />
 <Project
-        title="Product Management System with Code-first approach"
-        desc="Developed a product management system using NestJS and GraphQL with a code-first approach. Implemented CRUD operations for products, defined with TypeScript decorators to create a seamless GraphQL schema. Resolvers and services handle business logic for efficient data management. Integrated GraphQL Playground for intuitive API testing and interaction."
-        img={code}
-        git="https://github.com/surabhi-achar/code-schema-graphql"
+        title="Ninja-Sky Dealers"
+        desc="I developed an e-commerce website from scratch using PHP, designed for buying and selling second-hand cars and bikes. The website incorporates Bootstrap as the CSS framework for a responsive and user-friendly interface. MySQL is used as the database for efficient storage and management of listings and user data. This project highlights my skills in PHP development, frontend design, and database integration."
+        img={rent}
+        git="https://github.com/skyshetty720/bootstrap-with-php"
         link=""
       />
        <Project
-        title="React Weather App"
-        desc="Developed a dynamic weather application using React, integrating real-time weather data from external APIs for accurate and up-to-date forecasts.
-        Designed a clean and intuitive user interface, providing users with easy access to current weather conditions, forecasts, and location-based weather information."
-        img={weath}
-        git="https://github.com/surabhi-achar/React-weather-app"
-        link="https://surabhi-achar.github.io/React-weather-app/  "
-      />
-    <Project
-        title="Schema-First Approach with NestJS and GraphQL"
-        desc="Developed a GraphQL API in NestJS using the schema-first approach, emphasizing clear schema definition in GraphQL SDL for efficient API design. This method ensures clarity and maintainability by defining types, queries, mutations, and subscriptions upfront, facilitating seamless collaboration between frontend and backend development teams."
-        img={code}
-        git="https://github.com/surabhi-achar/nest-schema-graphql"
-        link=""
+        title="ML-PegasusTextSummarization"
+        desc="I developed a machine learning project utilizing the Pegasus model to summarize news articles effectively. The system takes multiple lines from news content and generates concise, meaningful summaries. This project showcases advanced NLP capabilities and ensures accurate context retention in the summaries. It highlights my skills in machine learning and working with state-of-the-art language models."
+        img={news}
+        git="https://github.com/skyshetty720/ML-PegasusTextSummarization"
+        link="https://github.com/skyshetty720/ML-PegasusTextSummarization "
       />
     </div>
   );
